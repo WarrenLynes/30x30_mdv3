@@ -10,5 +10,19 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "kicks": {
+      "tags": []
+    },
+    "kicks-e2e": {
+      "tags": [],
+      "implicitDependencies": ["kicks"]
+    },
+    "material": {
+      "tags": []
+    },
+    "core-data": {
+      "tags": []
+    }
+  }
 }
